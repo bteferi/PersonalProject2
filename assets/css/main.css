@@ -2946,7 +2946,12 @@
 			top: 0;
 			width: 100%;
 		}
-
+	  .travel{
+		  border:solid 1px red;
+			height:300px;
+			width:100%;
+			background-image: url("../../images/travel.png");
+		}
 		.spotlight .image.main {
 			display: none;
 		}
@@ -3967,6 +3972,18 @@
 
 			.spotlight .content {
 				padding: 3em 1.25em 1em 1.25em !important;
+			}
+			.webdevContainer{
+						position: relative;
+			};
+
+			.webDevContentHERE{
+				position: absolute;
+				bottom:800px;
+				left:16px;
+				border-style: solid;
+				background-color: pink;
+
 			}
 
 		/* Wrapper */
